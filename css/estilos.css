@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.encabezado {
+    background-image: url(../img/img-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 600px;
+    width: 100%;
+}
+
+.encabezado .menu {
+    margin: 30px 0px;
+    text-align: right;
+}
+
+.encabezado .menu a {
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: solid 2px transparent;
+}
+
+.encabezado .menu a:hover {
+    border-bottom: solid 2px #fff;
+}
+
+.encabezado .contenedor .contenedor-nombre {
+    margin: 190px 0px;
+    text-align: center;
+}
+
+.encabezado .contenedor .contenedor-nombre .nombre {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+/*about*/
+
+.contenedor .contenedor-about {
+    margin: 60px 0;
+}
+
+.about-me {
+    background: #fff;
+}
+
+.contenedor .titulo {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    color: #ee6b33;
+}
+
+.contenedor .contenedor-about .me {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.contact .formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.contact form {
+    width: 50%;
+}
+
+main .video {
+    padding: 40px 0;
+    text-align: center;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.contact {
+    background: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact form input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.contact form textarea {
+    width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 100px 0;
+    background: #ee6b33;
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width:640px) {
+    .encabezado .menu {
+        text-align: center;
+    }
+    .contact form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .encabezado .menu {
+        text-align: center;
+    }
+    .contact form {
+        width: 70%;
+    }
+}
